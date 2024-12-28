@@ -1,0 +1,14 @@
+master_nodes:
+  - ip: 1.1.1.1
+  - hostname: lol
+
+compute_nodes:
+  node1:
+    - ip: x.x.x.1
+    - hostname: value1
+  node2:
+    - ip: x.x.x.2
+    - hostname: value2
+- ssh: True
+- nfs:
+- supervisor: False
